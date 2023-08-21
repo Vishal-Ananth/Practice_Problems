@@ -1,6 +1,6 @@
 package programs;
 
-import java.lang.reflect.Array;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -26,6 +26,7 @@ public class GravityFlip {
         for (int i : arr) {
             System.out.print(i+" ");
         }
+        scanner.close();
     }
     
 }
